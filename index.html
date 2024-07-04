@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body{
+            background-image: url(assets/background-723053_1280.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body >
+    <!-- heading tag starts -->
+    <h2 class="htag"><b>Students Registration Form</b></h2><br>
+    
+    <div class="formfull">
+        <!-- form tag starts -->
+    <form>
+        <!-- table tag starts -->
+        <table id="formbg" >
+            <tr>
+                <td><h4>Student Role Number</h4></td> <td>:</td> <td> <input type="number" required  placeholder="Enter Your Role Number"> </td>
+            </tr>
+            <tr>
+                <td><h4>Student Name</h4></td> <td>:</td> <td><input type="text" required placeholder="Enter Your Name"> </td>
+            </tr>
+            <tr>
+                 <td><h4>Student Department</h4></td> <td>:</td> 
+                 <td>
+                    <select required>
+                        <option>ECE</option>
+                        <option>CSE</option>
+                        <option>IT</option>
+                        <option>EEE</option>
+                        <option>AIML</option>
+                        <option>Bio Medical</option>
+                        <option>Mechanical</option>
+                        <option>Aero</option>
+                    </select>
+                 </td>
+                 <tr>
+                    <td><h4>Student SSLC Marks</h4></td> <td>:</td> <td><input type="number" required  placeholder="Enter Your SSLC Mark" > </td>
+                 </tr>
+                 <tr>
+                    <td><h4>Student HSC Marks</h4></td> <td>:</td> <td><input type="number" required placeholder="Enter Your HSC Mark"></td>
+                 </tr>
+                 <tr>
+                    <td><h4>Student Degree(in Percentage)<h4></td> <td>:</td> <td><input type="number" required placeholder="Enter Your Degree Percentage"> </td>
+                 </tr>
+            </tr>
+            <tr>
+                <td><h4>Hostelers</h4></td> <td>:</td> <td>yes<input type="radio"> no<input type="radio" ></td>
+            </tr>
+            <tr>
+                <td><h4>Course Interested</h4></td> <td>:</td> 
+                <td><input type="checkbox">Python<br>
+                    <input type="checkbox">Java<br> 
+                    <input type="checkbox">Javascript<br>
+                    <input type="checkbox">C<br>
+                    <input type="checkbox">Fullstact Development<br>
+                    <input type="checkbox">Frontend Development<br>
+                    <input type="checkbox">Backend Development<br>
+                </td>
+            </tr>
+            <tr>
+                <td></td> <td></td> <td><button>submit</button> <button>cancel</button></td>
+        </table>
+    </form></div>
+</body>
+</html>
